@@ -1,7 +1,7 @@
 {
   "name": "oairbnb-standard",
   "description": "",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "email": "othree@gmail.com",
     "name": "othree",
@@ -20,6 +20,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0",
+    "minimist": "^1.2.0",
     "standard-engine": "~6.0.0"
   },
   "devDependencies": {
