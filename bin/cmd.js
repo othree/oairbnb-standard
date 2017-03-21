@@ -1,7 +1,28 @@
 #!/usr/bin/env node
 var minimist = require('minimist')
 
-var argv = minimist(process.argv.slice(2));
+var argv = minimist(process.argv.slice(2), {
+  alias: {
+    global: 'globals',
+    plugin: 'plugins',
+    env: 'envs',
+    help: 'h',
+    verbose: 'v'
+  },
+  boolean: [
+    'fix',
+    'help',
+    'stdin',
+    'verbose',
+    'version'
+  ],
+  string: [
+    'global',
+    'plugin',
+    'parser',
+    'env'
+  ]
+});
 
 if (!argv._.length && argv._[0] !== '-') {
   process.argv.push(
