@@ -1,0 +1,70 @@
+{
+  "name": "oairbnb-standard",
+  "description": "",
+  "version": "0.0.1",
+  "author": {
+    "email": "othree@gmail.com",
+    "name": "othree",
+    "url": "https://twitter.com/othree"
+  },
+  "bin": {
+    "oairbnb-standard": "./bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/othree/oairbnb-standard/issues"
+  },
+  "dependencies": {
+    "eslint": "~3.16.1",
+    "eslint-config-oairbnb": "^0.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "standard-engine": "~6.0.0"
+  },
+  "devDependencies": {
+    "merge": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "run-series": "^1.1.1",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3",
+    "xtend": "^4.0.0"
+  },
+  "homepage": "https://github.com/othree/oairbnb-standard",
+  "keywords": [
+    "bikeshed",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "semicolon",
+    "simple",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/othree/oairbnb-standard.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "standard": {
+    "ignore": "tmp/**"
+  }
+}
