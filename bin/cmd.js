@@ -3,7 +3,7 @@ var minimist = require('minimist')
 
 var argv = minimist(process.argv.slice(2));
 
-if (!argv._.length) {
+if (!argv._.length && argv._[0] !== '-') {
   process.argv.push(
     '**/*.js',
     '**/*.jsx',
