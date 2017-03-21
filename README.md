@@ -1,4 +1,4 @@
-# JavaScript O-Standard Style
+# Airbnb JavaScript Standard Style plus TypeScript and React
 
 Airbnb JavaScript coding style + react + `.tsx` support.
 
